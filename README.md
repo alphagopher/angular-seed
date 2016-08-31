@@ -1,9 +1,17 @@
 # angular-seed
 
-This is a seed application to get started on an Angular 1.x project with all the common libraries and tools involved in an Angular application.
+This is a seed application to get started on an Angular 1.x project with all the common libraries and tools involved in an Angular application using NPM packages for UI Router, Bootstrap, Smart Tables, Karma, Jasmine, and JSHint. This is still a work in progress, but I am trying to use only npm scripts (no grunt or gulp) to reduce dependencies to only NPM and basic shell commands.
 
-I decided to try and make this work without grunt or gulp, using only npm packages. A replacement for gulp-inject / injecting script references into the index.html file is still in the works. I plan for this to apply to the karma configurations as well.
+On the Angular side, there is tempalted code for a sample controller, element directive, and factory.
 
-For linting, use watch 'jshint .'. For karma test runner, just use karma start.
+Linting: From the project root, run watch 'jshint .'
+Karma: Run karma start
 
-On the Angular side, there is a sample controller, element directive, and factory. 
+TODO: 
+  Live browser reload on changes
+  Inject script files into index.html and karma.conf.js
+
+For linting, use watch 'jshint .'. 
+For karma test runner, just use karma start.
+
+
