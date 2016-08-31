@@ -9,7 +9,7 @@
             },
             templateUrl: APP_ROOT + '/report/widget-list/widget-list.html',
             controller: widgetListController,
-        }
+        };
     });
 
     function widgetListController($scope) {

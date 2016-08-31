@@ -31,18 +31,15 @@
     "karma-jasmine": "^0.3.8"
   },
   "scripts": {
-    "test": "karma start",
-    "andrew": "echo hello",
-    "lint:watch":"watch 'npm run lint' app/app.js"
+    "tests": "karma start",
+    "jshint:watch":"watch 'jshint .''"
   },
   "jshintConfig": {
     "curly": true,
     "eqeqeq": true,
     "undef": true,
     "maxdepth": 2,
-    "globals": {
-      "angular": false
-    }
+    "predef": ["angular", "module", "describe", "beforeEach", "inject", "it", "expect"]
   },
   "author": "Andrew Porter",
   "license": "ISC"

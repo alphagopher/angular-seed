@@ -24,7 +24,7 @@ module.exports = function(config) {
         '~/node_modules/angular-smart-table/dist/smart-table.js',
 
         './app/app.js',                                             // our angular app
-        './app/components/report/feature.controller.spec.js',
+        './app/components/feature /feature.controller.spec.js',
         './app/components/services/feature.service.spec.js',
     ],
 
@@ -75,5 +75,5 @@ module.exports = function(config) {
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
-  })
-}
+  });
+};
